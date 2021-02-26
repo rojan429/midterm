@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" th:href="@{/app.css}"/>
+    <title>Title</title>
+</head>
+<body>
+<h1>Home</h1>
+<p th:text="${joke}"></p>
+<img src="https://placehold.it/100x10" alt="logo image"/>
+<img th:src="@{/gifs/compiler-bot.gif}" height="100" alt="gif"/>
+</body>
+</html>
